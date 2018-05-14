@@ -1,0 +1,158 @@
+.backgroundimg {
+ 
+background-repeat: no-repeat;
+
+      width:100%;
+ 
+   background-size:cover;
+
+  position:fixed;
+   top: 0;
+   left:0;
+   z-index:-1;
+ 
+ }
+ 
+ .fa-pencil-alt {
+  
+    color:lightgrey;
+   float:right;
+ }
+ .fa-pencil-alt:hover{
+   color:gold;
+   cursor: pointer;
+ }
+ #container {
+   font-family:Verdana;
+   background-color:#f7f7f7;
+   width: 360px;
+   margin: 100px auto;
+ 
+   padding-top:0px;
+   text-align: center;
+   
+   box-shadow: 5px 5px 5px lightgrey;
+ }
+ 
+ #input{
+   padding-top:0px;
+   margin-top:0px;
+   padding-bottom: 10px;
+   height:50px;
+   line-height: 50px;
+   background:#f7f7f7;
+ 
+ }
+ input{
+   color:lightgrey;
+   padding-left:5px;
+ }
+ input:focus{
+   background-color:white;
+   border:2px solid #f7f7f7;
+   outline:none;
+ }
+ h1 {
+   background: white;
+  
+   font-weight:normal;
+   font-size:24px;
+   background-color:#f7f7f7;
+   padding:5px;
+   margin-top:0;
+   color:grey;
+ 
+   box-shadow: 3px 3px 5px lightgrey;
+    
+ }
+ button {
+   font-family: Verdana;
+   color:#666;
+   border:none;
+   background-color: #f7f7f7;
+  box-shadow: 3px 5px 5px lightgrey; 
+ }
+ button:hover {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ button:focus{
+   outline:0;
+   
+  
+ }
+#x{
+  color:white;
+  visibility: hidden; 
+}
+li {
+    background-color:white;
+  height:40px;
+  line-height:40px;
+  color:#666;
+}
+
+li:hover {
+  color:grey;
+  cursor: pointer;
+}
+
+#check{
+  float:right;
+  line-height: 40px;
+  padding-right:10px;
+ 
+}
+#trash {
+  text-align: center;
+   height:40px;
+   margin-right:10px;
+   padding-left:5px;
+  width:0px;
+  
+  display: inline-block;
+  
+  float:left;
+  line-height: 40px;
+  background-color:#FF8D87;
+  color:white;
+  
+  transition: 0.2s linear;
+
+ 
+}
+ 
+#check:hover {
+   color:#e3ffe7;
+   
+ }
+ 
+#trash:hover{
+  width:40px;
+  color:white;
+  
+ 
+}
+ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+
+}
+li{
+  text-align:left;
+}
+ .completed {
+   color:lightgrey;
+  text-decoration:line-through;
+ }
+
+button {
+  padding:5px;
+  
+  margin:5px;
+}
+input { 
+  padding:5px;}
+
+
+ 
